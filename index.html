@@ -64,7 +64,7 @@
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Full-Stack Web Developer<br>
+            <p class="text-faded mb-5">Web Developer<br>
               Bartender<br>
               Geek</p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About Me</a>
@@ -76,12 +76,27 @@
     <section class="bg-primary" id="about">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">Web Dev, Cocktails, and Board Games</h2>
+          <div class="col-lg-8 mx-auto">
+            <h2 class="section-heading text-white text-center">F.A.Q.</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">Whether it's a new framework, a new rum, or a new boardgame, I love learning things. I have an eclectic range of knowledge which I use to my advantage in all aspects of life, and if I don't know about something then I will very soon. I am currently looking to make my way into the Web Developement career path and I am excited for the opportunities to come. Thanks to the Georgia Tech Full-Stack Web-Dev Program for the knowledge. And yes, that is my real name.</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#skills">Technical Skills</a>
+            <dl>
+              <dt class="text-faded mb-4">-  C. S. Lewis?</dt>
+              <dd class="text-faded mb-4">Indeed, Joshua Clayton Smith Lewis is my name and I’m that guy that is wearing a puka shell necklace and Ravenclaw hoodie, drinking a Rum Old Fashioned, and constantly looking stuff up on his phone. Whether it’s about a new rum I found, a new board game I heard about, or some documentation I forgot, I’m researching it. I just like to know things.</dd>
+              <dt class="text-faded mb-4">-  Where are you from?</dt>
+              <dd class="text-faded mb-4">The most common question you will receive if you live in the South and have no accent. Well, I’m a military brat and lived in 10 different places and attended 10 different schools before I was 20. The constant change built a love of travel and a life of curiosity in me that defines who I am.</dd>
+              <dt class="text-faded mb-4">-  What places?</dt>
+              <dd class="text-faded mb-4">Born in Germany then New Mexico, Mississippi, Singapore, Ohio, Virginia, Alabama, North Dakota, Florida and now Georgia. Not to mention all the places I’ve visited while living in each place.</dd>
+              <dt class="text-faded mb-4">-  Programming Bartender Geek?</dt>
+              <dd class="text-faded mb-4">Absolutely, and actor. I found programming through a friend of mine. After chatting with me one day he told me that I would make a good programmer because of the way I think. I chuckled, but I couldn’t stop thinking about that. I decided to give it a try. I learned some things on a variety of learning platforms, and eventually committed to the Georgia Tech Full Stack Web Dev Program. It was an intense 24-weeks but I loved every second of it. The combination of creativity and logic was exactly what my brain needed.</dd>
+              <dd class="text-faded mb-4">Through this time I had to pay the bills, right? Enter the Restaurant Industry. My people. I love food and the whole act of going out and have worked in restaurants for 9 years. I have met incredible people and earned a lifetime of skills and knowledge that I wouldn’t trade for anything. Teamwork, Communication, Time Management, Stress Management, Problem Solving, you name it.</dd>
+              <dd class="text-faded mb-4">Geek. Lifelong Ravenclaw, Board game fanatic and Video game lover, Avid Manga Reader, Ex-Magic: the Gathering Judge, Halfling Merchant Cleric of Shinare or Drunken Master Pirate Chef, Marvel always, Improv aficionado etc.</dd>
+              <dt class="text-faded mb-4">-  But what can you do?</dt>
+              <dd class="text-faded mb-4">Glad you asked, check out my technical skills here:</dd>
+            </dl>
           </div>
+        </div>
+        <div class="row">
+          <a class="btn btn-light btn-xl js-scroll-trigger mx-auto" href="#skills">Technical Skills</a>
         </div>
       </div>
     </section>
@@ -153,57 +168,54 @@
         <h2 class="mb-4">My Work</h2>
         <hr class="my-4">
       </div>
-      <div class="container-fluid p-0">
+      <div class="container p-0">
         <div class="row">
-          <div class="col-lg-4 col-md-12 col-sm-12">
-            <a class="portfolio-box" href="https://emswann.github.io/still-open" target="_blank">
-              <img class="img-fluid" src="img/portfolio/thumbnails/stillopen.JPG" alt="Still Open?">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Still Open?
-                  </div>
-                  <div class="project-category text-faded">
-                    App that reveals all currently open restaurants near user
-                  </div>
-                </div>
+          <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="img/portfolio/thumbnails/stillopen.JPG" alt="Still Open?">
+              <h5 class="card-header">Still Open?</h5>
+              <div class="card-body text-center">
+                <p class="card-text">App that reveals all currently open restaurants near user.</p>
+                <p class="card-text">Responsible for overall design and concept, map functionality, geocoding, and rendering of list.</p>
+                <p class="card-text">Built with Bootstrap, Javascript/jQuery, Google Places/Geocoder/Maps/Fonts</p>
               </div>
-            </a>
+              <div class="card-footer text-center">
+                <a href="https://github.com/emswann/still-open" class="btn btn-primary" target="_blank">Github</a>
+                <a href="https://emswann.github.io/still-open" class="btn btn-primary" target="_blank">Website</a>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="img/portfolio/thumbnails/handler.JPG" alt="Handler">
+              <h5 class="card-header">Handler</h5>
+              <div class="card-body text-center">
+                <p class="card-text">Business database that holds inventories of glassware, silverware, wine, regulars, and employees.</p>
+                <p class="card-text">Responsible for all aspects of development</p>
+                <p class="card-text">Built with React, Node.js, Express, MDBootstrap, Mongoose, MongoDB, Passport</p>
+                <p class="card-text">Use the username: test and password: testsubject in order to use the app.</p>
+              </div>
+              <div class="card-footer text-center">
+                <a href="https://github.com/cslewislives/Handler" class="btn btn-primary" target="_blank">Github</a>
+                <a href="https://atlantic-handler.herokuapp.com" class="btn btn-primary" target="_blank">Website</a>
+                </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="img/portfolio/thumbnails/lifeplus.JPG" alt="Life++">
+              <h5 class="card-header">Life++</h5>
+              <div class="card-body text-center">
+                <p class="card-text">Allows a user to enter a City in the US and a Job and it will show them the average salary in that location as well as average cost of living. Searches can be saved for later viewing.</p>
+                <p class="card-text">Responsible for server creation, routing, API calls, and rendering of received searches.</p>
+                <p class="card-text">Built with Javascript/jQuery, MDBootstrap, Express, Node.js, Firebase, Google Places</p>
+              </div>
+              <div class="card-footer text-center">
+                <a href="https://github.com/cslewislives/LifePlus" class="btn btn-primary" target="_blank">Github</a>
+                <a href="https://life-plus.herokuapp.com" class="btn btn-primary" target="_blank">Website</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-12 col-sm-12">
-            <a class="portfolio-box" href="https://github.com/cslewislives/Handler" target="_blank">
-              <img class="img-fluid" src="img/portfolio/thumbnails/handler.JPG" alt="Handler">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Handler
-                  </div>
-                  <div class="project-category text-faded">
-                    Inentory Management App for Atlantic
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-12 col-sm-12">
-            <a class="portfolio-box" href="https://life-plus.herokuapp.com" target="_blank">
-              <img class="img-fluid" src="img/portfolio/thumbnails/lifeplus.JPG" alt="Life++">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Life++
-                  </div>
-                  <div class="project-category text-faded">
-                    Compares salary of searched job with cost of living in a city
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>          
         </div>
-      </div>
-      <div class="row">
-        <a class="btn btn-light btn-xl js-scroll-trigger mx-auto" href="#contact">Contact Me</a>
+        <div class="row" id="btn-row">
+          <a class="btn btn-light btn-xl js-scroll-trigger mx-auto contact-btn" href="#contact">Contact Me</a>
+        </div>
       </div>
     </section>
 
@@ -213,22 +225,26 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Contact Me</h2>
             <hr class="my-4">
-            <p class="mb-5">Whether it's for a new project or for my recipe for a Rum Old Fashioned hit me up!</p>
+            <p class="mb-5">Feel free to contact me at any of the following places.</p>
             <img id="me" class="col-lg-5 col-md-5 col-sm-5" src="img/me.jpg" alt="Josh C.S. Lewis"/>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+          <div class="col-lg-3 col-md-3 col-sm-3 text-center">
             <a href="https://github.com/cslewislives"><i class="fab fa-github-square fa-3x mb-3 sr-contact-1"></i></a>
             <p>github.com/cslewislives</p>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+          <div class="col-lg-3 col-md-3 col-sm-3 text-center">
             <a href="mailto:cslewislives@gmail.com"><i class="fas fa-envelope fa-3x mb-3 sr-contact-1"></i></a>
             <p>cslewislives@gmail.com</p>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+          <div class="col-lg-3 col-md-3 col-sm-3 text-center">
             <a href="https://linkedin.com/in/cslewislives"><i class="fab fa-linkedin fa-3x mb-3 sr-contact-1"></i></a>
             <p>linkedin.com/in/cslewislives</p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 text-center">
+            <a href="https://www.instagram.com/cslewislives/"><i class="fab fa-instagram fa-3x mb-3 sr-contact-1"></i></a>
+            <p>@cslewislives</p>
           </div>
         </div>
       </div>
